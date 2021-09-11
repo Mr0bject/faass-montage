@@ -1,0 +1,5 @@
+$ dig WWW.FAAS-MONTAGE.DE +nostats +nocomments +nocmd
+    > ;WWW.FAAS-MONTAGE.DE.                 IN      A
+    > WWW.FAAS-MONTAGE.DE.          3592    IN      CNAME   faass-montage.github.io.
+    > faass-montage.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER.
+    >  GITHUB-PAGES-SERVER .        22      IN      A       192.0.2.1
